@@ -25,6 +25,14 @@ class ViewController: UIViewController {
         updateTipPercentage()
     }
     
+    @IBAction func Tap_Save(_ sender: UIButton)
+
+    {
+        totalCheck.text = ""
+        tipAmt.text = "$0.00"
+        totalPaid.text = "$0.00"
+    }
+    
     func updateTipPercentage() {
         let tipPercentages = [0.15, 0.18, 0.2]
         

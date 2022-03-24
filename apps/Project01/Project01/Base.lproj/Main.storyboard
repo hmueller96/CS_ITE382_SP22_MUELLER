@@ -29,9 +29,6 @@
                                             <segment title="18%"/>
                                             <segment title="20%"/>
                                         </segments>
-                                        <connections>
-                                            <action selector="tipPercentage:" destination="BYZ-38-t0r" eventType="valueChanged" id="XLK-ES-E8D"/>
-                                        </connections>
                                     </segmentedControl>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Total Check Amount" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="JOP-P7-khu">
                                         <rect key="frame" x="20" y="385" width="374" height="34"/>
@@ -68,7 +65,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqm-2J-epQ">
-                                        <rect key="frame" x="143" y="466" width="128" height="44"/>
+                                        <rect key="frame" x="238" y="466" width="128" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Calculate"/>
@@ -94,6 +91,15 @@
                                         <color key="textColor" systemColor="systemIndigoColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzc-7h-NLE">
+                                        <rect key="frame" x="62" y="466" width="128" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Clear"/>
+                                        <connections>
+                                            <action selector="Tap_Save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="76e-eP-H4o"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="VQj-c9-Jbc"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
