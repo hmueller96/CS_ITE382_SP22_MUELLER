@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("My Favorite Movies")
-            .font(.largeTitle)
-            .foregroundColor(Color.purple)
-            .multilineTextAlignment(.center)
-            .padding(.top)
         NavigationView{
             VStack {
+                Text("My Favorite Movies")
+                    .font(.largeTitle)
+                    .foregroundColor(Color.purple)
+                    .multilineTextAlignment(.center)
+                    .padding(.top)
                 Image("Star Wars")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
