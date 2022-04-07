@@ -52,6 +52,7 @@ struct JurassicParkView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             JurassicParkView()
+                .previewInterfaceOrientation(.landscapeLeft)
             JeffGoldblumView()
             SamNeillView()
             LauraDernView()

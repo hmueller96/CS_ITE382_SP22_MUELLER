@@ -9,6 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        Text("My Favorite Movies")
+            .font(.largeTitle)
+            .foregroundColor(Color.purple)
+            .multilineTextAlignment(.center)
+            .padding(.top)
         NavigationView{
             VStack {
                 Image("Star Wars")
@@ -38,6 +43,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
+                .previewInterfaceOrientation(.portrait)
             StarWarsView()
             LOTRView()
             JurassicParkView()
